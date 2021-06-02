@@ -1,4 +1,4 @@
-export let data = [
+let data = [
   { id: 0, title: "제목1", writer: "홍길동1", contents: "내용1" },
   { id: 1, title: "제목2", writer: "홍길동2", contents: "내용2" },
   { id: 2, title: "제목3", writer: "홍길동3", contents: "내용3" },
@@ -10,3 +10,5 @@ export let data = [
   { id: 8, title: "제목9", writer: "홍길동9", contents: "내용9" },
   { id: 9, title: "제목10", writer: "홍길동10", contents: "내용10" }
 ]
+
+export default data;

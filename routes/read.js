@@ -3,7 +3,7 @@ import express from 'express';
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.send({ data, totalCount: data.length })
+  res.send({ data })
 })
 
 router.get('/view/:id', (req, res) => {
