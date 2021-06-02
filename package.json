@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js --exec babel-node"
+    "start": "nodemon app.js --exec babel-node",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,10 @@
     "babel-loader": "^8.2.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.0.0-beta.3"
   }
 }
